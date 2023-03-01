@@ -1,0 +1,101 @@
+{
+ 
+    "buttons":
+    {
+        "vinaria":
+        {
+            "text" : "Jouer",
+            "posX" : -450,
+            "posY" : 10,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip" : "node01.vakyum.fr:25582"
+            }
+        },
+        
+        "discord officiel":
+        {
+            "text" : "Discord Officiel",
+            "posX" : -450,
+            "posY" : 50,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://discord.gg/xFzA3jpgkf"
+            }
+        },
+
+        "site":
+        {
+            "text" : "Site Officiel",
+            "posX" : -450,
+            "posY" : 90,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://vakyum.fr"
+            }
+        },
+         
+        "Options":
+        {
+            "text" : "menu.options",
+            "posX" : -450,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quitte le jeu":
+        {
+            "text" : "Quitter le jeu",
+            "posX" : -358,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        }   
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright 2023 Vakyum Studio - Tous droits réservés.",
+            "hoverText" : "dev: vexato",
+            "posX" : -270,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://www.youtube.com/watch?v=8ybW48rKBME"
+            }
+        }
+    },
+    
+    "other":
+    {
+        
+        "background":
+        {
+            "image" : "minecraft:textures/gui/title/background/panorama_%c.png"
+        }
+    }
+}
