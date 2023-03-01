@@ -12,7 +12,7 @@
             "action" : 
             {
                 "type" : "connectToServer",
-                "ip" : "node01.vakyum.fr:25582"
+                "ip" : "185.248.33.17:25582"
             }
         },
         
@@ -61,7 +61,7 @@
         "quitte le jeu":
         {
             "text" : "Quitter le jeu",
-            "posX" : -358,
+            "posX" : -402,
             "posY" : 132,
             "width" : 98,
             "height" : 20,
@@ -77,7 +77,7 @@
         "mojang":
         {
             "text" : "Copyright 2023 Vakyum Studio - Tous droits réservés.",
-            "hoverText" : "dev: vexato",
+            "hoverText" : "Développé par Gabriel",
             "posX" : -270,
             "posY" : -10,
             "color" : -1,
